@@ -13,7 +13,6 @@ export const VideosProvider = ({ children }) => {
             .then(data => setVideos(data));
     }, []);
 
-
     const eliminarVideo = async (videoID) => {
         try {
             // Hacer una solicitud DELETE al servidor
@@ -82,7 +81,6 @@ export const VideosProvider = ({ children }) => {
             console.error('Error al editar el video:', error);
         }
     };
-    
     
 
     return (

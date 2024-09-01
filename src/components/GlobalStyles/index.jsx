@@ -13,6 +13,10 @@ const GlobalStyles = createGlobalStyle`
     --negro: #000000;
   }
 
+  html {
+  scroll-behavior: smooth;
+}
+
   body {
     margin: 0;
     font-family: var(--font);

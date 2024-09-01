@@ -1,66 +1,106 @@
-{ "videos":[
+[
     {
         "id": 1,
-        "titulo": "Aprendiendo a utilizar Figma",
-        "portada": "https://img.youtube.com/vi/UuAX5azcvDQ/0.jpg",
-        "link": "https://www.youtube.com/embed/UuAX5azcvDQ",
-        "categoria": "Front End"
+        "titulo": "Bodega",
+        "portada": "src/assets/img/1.1.png",
+        "link": "",
+        "categoria": "Planta libre",
+        "superficie":"24 m2",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "palabrasClaves": "",
+        "imagenes": [
+        { "url": "src/assets/img/image12.jpg" },
+        { "url": "src/assets/img/image14.jpg" },
+        { "url": "src/assets/img/image15.jpg" },
+        { "url": "src/assets/img/image16.jpg" },
+        { "url": "src/assets/img/image17.jpg" }
+      ]
+
     },
     {
         "id": 2,
-        "titulo": "¿Qué es Javascript?",
-        "portada": "https://img.youtube.com/vi/GJfOSoaXk4s/0.jpg",
-        "link": "https://www.youtube.com/embed/GJfOSoaXk4s",
-        "categoria": "Front End"
+        "titulo": "Oficina con baño",
+        "portada": "src/assets/img/2.1.png",
+        "link": "",
+        "categoria": "Oficina",
+        "superficie":"24 m2",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "palabrasClaves": "",
+        "imagenes": [
+        { "url": "src/assets/img/image12.jpg" },
+        { "url": "src/assets/img/image14.jpg" },
+        { "url": "src/assets/img/image15.jpg" },
+        { "url": "src/assets/img/image16.jpg" },
+        { "url": "src/assets/img/image17.jpg" }
+      ]
     },
     {
         "id": 3,
-        "titulo": "Equipo Front End",
-        "portada": "https://img.youtube.com/vi/rpvrLaBQwgg/0.jpg",
-        "link": "https://www.youtube.com/embed/rpvrLaBQwgg",
-        "categoria": "Front End"
+        "titulo": "Oficina planta libre",
+        "portada": "src/assets/img/3.1.png",
+        "link": "",
+        "categoria": "Oficina",
+        "superficie":"24 m2",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "palabrasClaves": "",
+        "imagenes": [
+        { "url": "src/assets/img/image12.jpg" },
+        { "url": "src/assets/img/image14.jpg" },
+        { "url": "src/assets/img/image15.jpg" },
+        { "url": "src/assets/img/image16.jpg" },
+        { "url": "src/assets/img/image17.jpg" }
+      ]
     },
     {
         "id": 4,
-        "titulo": "Spring Framework ¿Qué es?",
-        "portada": "https://img.youtube.com/vi/t-iqt1b2qqk/0.jpg",
-        "link": "https://www.youtube.com/embed/t-iqt1b2qqk",
-        "categoria": "Back End"
+        "titulo": "Batería 8D",
+        "portada": "src/assets/img/4.1.png",
+        "link": "",
+        "categoria": "Baños",
+        "superficie":"24 m2",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "palabrasClaves": "",
+        "imagenes": [
+        { "url": "src/assets/img/image12.jpg" },
+        { "url": "src/assets/img/image14.jpg" },
+        { "url": "src/assets/img/image15.jpg" },
+        { "url": "src/assets/img/image16.jpg" },
+        { "url": "src/assets/img/image17.jpg" }
+      ]
     },
     {
         "id": 5,
-        "titulo": "¿Qué es SQL y NOSQL?",
-        "portada": "https://img.youtube.com/vi/cLLKVd5CNLc/0.jpg",
-        "link": "https://www.youtube.com/embed/cLLKVd5CNLc",
-        "categoria": "Back End"
+        "titulo": " Batería 3WC/3LM/3D",
+        "portada": "src/assets/img/5.1.png",
+        "link": "",
+        "categoria": "Baños",
+        "superficie":"24 m2",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "palabrasClaves": "",
+        "imagenes": [
+        { "url": "src/assets/img/image12.jpg" },
+        { "url": "src/assets/img/image14.jpg" },
+        { "url": "src/assets/img/image15.jpg" },
+        { "url": "src/assets/img/image16.jpg" },
+        { "url": "src/assets/img/image17.jpg" }
+      ]
     },
     {
         "id": 6,
-        "titulo": "Conoce los ENUM",
-        "portada": "https://img.youtube.com/vi/EoPvlE85XAQ/0.jpg",
-        "link": "https://www.youtube.com/embed/EoPvlE85XAQ",
-        "categoria": "Back End"
-    },
-    {
-        "id": 7,
-        "titulo": "¿Qué son las Soft Skills?",
-        "portada": "https://img.youtube.com/vi/vhwspfvI52k/0.jpg",
-        "link": "https://www.youtube.com/embed/vhwspfvI52k",
-        "categoria": "Innovación y Gestión"
-    },
-    {
-        "id": 8,
-        "titulo": "Soft Skills mas demandadas del 2024",
-        "portada": "https://img.youtube.com/vi/_-9grhDhxiU/0.jpg",
-        "link": "https://www.youtube.com/embed/_-9grhDhxiU",
-        "categoria": "Innovación y Gestión"
-    },
-    {
-        "id": 9,
-        "titulo": "Metodologías ágiles",
-        "portada": "https://img.youtube.com/vi/6N3OkLCfK-0/0.jpg",
-        "link": "https://www.youtube.com/embed/6N3OkLCfK-0",
-        "categoria": "Innovación y Gestión"
+        "titulo": "Batería 6WC/6LM",
+        "portada": "src/assets/img/6.1.png",
+        "link": "",
+        "categoria": "Baños",
+        "superficie":"24 m2",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "palabrasClaves": "",
+        "imagenes": [
+        { "url": "src/assets/img/image12.jpg" },
+        { "url": "src/assets/img/image14.jpg" },
+        { "url": "src/assets/img/image15.jpg" },
+        { "url": "src/assets/img/image16.jpg" },
+        { "url": "src/assets/img/image17.jpg" }
+      ]
     }
+    
 ]
-}

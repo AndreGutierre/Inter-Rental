@@ -6,17 +6,18 @@ import NotFound from '../src/pages/NotFound/index';
 import BasePage from '../src/pages/BasePage/index';
 import NewVideo from '../src/pages/NewVideo/index';
 
+
+
 function AppRoutes() {
-  return (
+  return ( 
     <BrowserRouter>
         <Routes>
-          <Route path='/' element={<BasePage />}> 
+          <Route path='/Inter-Rental/' element={<BasePage />}> 
           <Route index element={<Inicio />} />
-          <Route path="Favoritos" element={<Favorites />} />
-          <Route path=":id" element={<Player />} />
+          <Route path="/Inter-Rental/favoritos" element={<Favorites />} />
+          <Route path="/Inter-Rental/:id" element={<Player />} />
           <Route path='*' element={<NotFound />} />
-          <Route path='agregarvideo' element={<NewVideo />} />
-          
+          <Route path='/Inter-Rental/agregarvideo' element={<NewVideo />} />
           </Route> 
         </Routes>
     </BrowserRouter>
@@ -24,4 +25,6 @@ function AppRoutes() {
 }
 
 export default AppRoutes;
+
+
 

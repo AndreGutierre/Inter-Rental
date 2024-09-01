@@ -6,10 +6,11 @@ import search from "../../../public/icons/search.png"
 const StyledContainer = styled.div`
     display: flex;
     width: 60%;
+    color: #010165;
     align-items: center;
     justify-content: flex-end;
-    
-     margin: 3% 20%;
+    margin-top: 2em;
+     
 `;
 
 
@@ -19,27 +20,28 @@ const StyledSearchBar = styled.input`
     
     height: 45px;
     padding: 12px 16px;
-
-    border-radius: 10px;
+    
+    
     border: 1px solid;
-    border-color: #000000;
+    color: #010165;
     background: transparent;
     box-sizing: border-box;
-    width: 80vw;
-    color: var(--negro);
+    width: 100%;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
     outline: none;
+    
 `
 
 const SearchIcon = styled.img`
     position: absolute;
     display: flex;
+    
     margin-right: 1em;
     width: 25px !important;
     height: 25px;
-    color: var(--negro);
+    color: #010165;
 `;
 
 const SearchBar = ({setBusqueda}) => {

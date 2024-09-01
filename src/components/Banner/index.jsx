@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import imgUrl from "../Banner/ImgBanner.png";
 
 const PageWrapper = styled.div`
   display: flex;
@@ -32,6 +32,17 @@ const Container = styled.div`
     z-index: 1;
     border-radius: 50px 50px 0 0 ;
   }
+
+   /* Estilos responsivos */
+   @media (max-width: 768px) { /* Tablet */
+    height: 300px;
+    border-radius: 30px 30px 0 0;
+  }
+
+  @media (max-width: 480px) { /* Móviles */
+    height: 250px;
+    border-radius: 20px 20px 0 0;
+  }
 `;
 
 const Button = styled.button`
@@ -50,6 +61,23 @@ const Button = styled.button`
   font-size: 20px;
   font-weight: lighter;
   cursor: pointer;
+
+  /* Estilos responsivos */
+  @media (max-width: 768px) { /* Tablet */
+    left: 30px;
+    top: 30px;
+    width: 80px;
+    height: 80px;
+    font-size: 18px;
+  }
+
+  @media (max-width: 480px) { /* Móviles */
+    left: 20px;
+    top: 20px;
+    width: 60px;
+    height: 60px;
+    font-size: 16px;
+  }
 `;
 
 const Text = styled.h1`
@@ -61,6 +89,21 @@ const Text = styled.h1`
     z-index: 2; 
     font-size: 26px;
     font-weight: 600;
+
+    /* Estilos responsivos */
+  @media (max-width: 768px) { /* Tablet */
+    left: 30px;
+    top: 120px;
+    font-size: 22px;
+    width: 50%;
+  }
+
+  @media (max-width: 480px) { /* Móviles */
+    left: 20px;
+    top: 100px;
+    font-size: 18px;
+    width: 70%;
+  }
 
 `
 
@@ -74,12 +117,27 @@ const Paragraph = styled.h3`
     font-size: 14px;
     font-weight: 300;
 
+    /* Estilos responsivos */
+  @media (max-width: 768px) { /* Tablet */
+    left: 30px;
+    top: 180px;
+    font-size: 12px;
+    width: 70%;
+  }
+
+  @media (max-width: 480px) { /* Móviles */
+    left: 20px;
+    top: 160px;
+    font-size: 10px;
+    width: 80%;
+  }
+
 `
 
-const Banner = ({ imgUrl, boton, titulo, descripcion }) => {
+const Banner = ({ boton, titulo, descripcion }) => {
     return (
         <PageWrapper>
-            <Container $backgroundImage={`../../../public/img/${imgUrl}`}>
+            <Container $backgroundImage={imgUrl}>
                 <Button>{boton}</Button>
                 <Text>{titulo}</Text>
                 <Paragraph>{descripcion}</Paragraph>

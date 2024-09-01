@@ -5,7 +5,7 @@ import FormButton from "../../components/FormButton/index"
 import iconClose from "../../../public/icons/Close.png"
 import { useShowForm } from "../../context/EditFormContext";
 import { useRef, useState, useEffect } from "react"
-import { useVideos } from "../../context/VideoContext";
+import { useImage } from "../../context/ImgContext";
 
 
 const Overlay = styled.div`
@@ -18,7 +18,7 @@ const Overlay = styled.div`
     justify-content: center;
     align-items: center;
     background-color: rgba(39, 39, 59, 0.7);
-    z-index: 10;
+    z-index: 200;
     overflow-y: auto; // Permitir desplazamiento vertical
 `;
 
@@ -73,7 +73,7 @@ const ButtonContainer = styled.div`
 
 const EditForm = () => {
     const { showForm, toggleForm, selectedVideoId } = useShowForm();
-    const { videos, editarVideo } = useVideos();
+    const { image, setImage } = useImage();
 
  const id = (selectedVideoId);
  
@@ -81,24 +81,24 @@ const EditForm = () => {
   
     if (!showForm || !id) return null; // Si showForm es false o no hay id, no renderiza nada.
 
-    const videoSeleccionado = videos.find(video => video.id === id);
+    const selectedImage = image.find(video => video.id === id);
 
-    const [titulo, setTitulo] = useState(videoSeleccionado?.titulo || "");
-    const [categoria, setCategoria] = useState(videoSeleccionado?.categoria || "");
-    const [portada, setPortada] = useState(videoSeleccionado?.portada || "");
-    const [link, setLink] = useState(videoSeleccionado?.video || "");
-    const [descripcion, setDescripcion] = useState(videoSeleccionado?.descripcion || "");
+    const [titulo, setTitulo] = useState(selectedImage?.titulo || "");
+    const [categoria, setCategoria] = useState(selectedImage?.categoria || "");
+    const [portada, setPortada] = useState(selectedImage?.portada || "");
+    const [link, setLink] = useState(selectedImage?.video || "");
+    const [descripcion, setDescripcion] = useState(selectedImage?.descripcion || "");
 
     const formRef = useRef(null);
 
     useEffect(() => {
-        // Actualizar los estados cuando cambie el videoSeleccionado
-        setTitulo(videoSeleccionado?.titulo || "");
-        setCategoria(videoSeleccionado?.categoria || "");
-        setPortada(videoSeleccionado?.portada || "");
-        setLink(videoSeleccionado?.link || "");
-        setDescripcion(videoSeleccionado?.descripcion || "");
-      }, [videoSeleccionado]);
+        // Actualizar los estados cuando cambie el selectedImage
+        setTitulo(selectedImage?.titulo || "");
+        setCategoria(selectedImage?.categoria || "");
+        setPortada(selectedImage?.portada || "");
+        setLink(selectedImage?.link || "");
+        setDescripcion(selectedImage?.descripcion || "");
+      }, [selectedImage]);
 
 
       const SendForm = (e) => {
@@ -111,7 +111,7 @@ const EditForm = () => {
             descripcion,
             categoria
         };
-        editarVideo(selectedVideoId, datosAEnviar);
+        setImage(selectedVideoId, datosAEnviar);
         toggleForm(); 
     }
 

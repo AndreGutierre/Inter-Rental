@@ -3,7 +3,7 @@ import TextInput from "../TextInput/index"
 import OptionList from "../OptionList/index"
 import FormButton from "../../components/FormButton/index"
 import { useState, useRef } from "react"
-import { useVideos } from  "../../context/VideoContext"
+import { useImage } from  "../../context/ImgContext"
 
 
 const Page = styled.div`
@@ -66,7 +66,7 @@ const AddVideoForm = () => {
     const [descripcion, setDescripcion] = useState("")
 
     const formRef = useRef(null);
-    const { agregarVideo } = useVideos();
+    const { addImage } = useImage();
 
     const SendForm = (e) => {
         e.preventDefault();
@@ -77,7 +77,7 @@ const AddVideoForm = () => {
             descripcion,
             categoria
         };
-        agregarVideo(datosAEnviar); 
+        addImage(datosAEnviar); 
     }
 
     const clearForm = (e) => {

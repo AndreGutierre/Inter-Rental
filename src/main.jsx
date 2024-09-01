@@ -1,9 +1,9 @@
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import { EditFormProvider } from "../src/context/EditFormContext.jsx"
+import { ShowFormProvider } from "../src/context/ShowFormContext.jsx"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    <EditFormProvider>
+    <ShowFormProvider>
     <App />,
-    </EditFormProvider>
+    </ShowFormProvider>
 )

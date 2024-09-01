@@ -24,7 +24,7 @@ const StyledCardGallery = styled.div`
 
 `
 
-const CardGalleryFav = () => {
+const CardGalleryFav = ( ) => {
     const { favorite } = useFavoritesContext();
 
     //console.log("Favorite items:", favorite);

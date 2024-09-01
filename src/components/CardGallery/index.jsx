@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import Card from "../Card/index";
-import { useVideos } from "../../context/VideoContext";
+import { useImage } from "../../context/ImgContext";
 import { v4 as uuid } from "uuid";
+
 
 
 const Container = styled.div`
@@ -13,11 +14,11 @@ const Container = styled.div`
     align-items: center;
     
     h1{
-        color: #ffffff;
+      color: #fff;
         font-size: 1.5;
         font-weight: 600;
         margin : 1em;
-       
+        min-width: 200px;
   
     }
    
@@ -25,30 +26,32 @@ const Container = styled.div`
 `
 const StyledCardGallery = styled.div`
     display: flex;
-    width: 80vw;
+    width: 90vw;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 1.5;
+    height: 80%;
     box-sizing: border-box;
-    gap: 1.5em;
+    gap: 3em;
     
    
 `
-const CardGallery = ({ categoria }) => {
-    const { videos } = useVideos();
+const CardGallery = ({ categoria, onShowClick}) => {
+    const { image } = useImage();
   
     // Filtrar los videos por categoría
-    const filteredVideos = videos.filter(video => video.categoria === categoria);
+    //const filteredImages = image.filter(video => video.categoria === categoria);
   
-    return (
+    return ( 
       <Container>
-        <h1>{categoria}</h1>
+        {/* <h1>{categoria}</h1> */}
         <StyledCardGallery>
-          {filteredVideos.map(video => (
-            <Card {...video} key={video.id} videoId={uuid()} />
+        {image.map(imagen => (
+            <Card {...imagen} key={imagen.id} id={imagen.id} onShowClick={onShowClick}/>
+           
           ))}
+        
         </StyledCardGallery>
       </Container>
     );

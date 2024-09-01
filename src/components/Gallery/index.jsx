@@ -1,9 +1,9 @@
 import styled from "styled-components";
 import CardGallery from "../CardGallery/index";
-import { useVideos } from "../../context/VideoContext";
+import { useImage } from "../../context/ImgContext";
 import { v4 as uuid } from "uuid";  
 
-const Container = styled.div`
+const Container = styled.section`
     display: flex;
     width: 100%;
     flex-direction: row;
@@ -11,10 +11,34 @@ const Container = styled.div`
     justify-content: center;
     align-items: center;
 
+    h1{
+            font-size: 2.5em;
+            font-weight: 800;
+            margin: 0;
+            z-index: 100;
+            line-height: 1em;
+            margin-bottom: 1.5em;
+            color: #010165;
+        }
+    /* Estilos responsivos */
+    @media (max-width: 768px) { /* Tablet y móviles grandes */
+        h1 {
+            font-size: 2em;
+            margin-bottom: 1em;
+        }
+    }
+
+    @media (max-width: 480px) { /* Móviles pequeños */
+        h1 {
+            font-size: 1.5em;
+            margin-bottom: 0.75em;
+        }
+    }    
+
 `
 const StyledGallery = styled.div`
     display: flex;
-    width: 90vw;
+    width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -23,38 +47,56 @@ const StyledGallery = styled.div`
     padding-bottom: 3em;
     box-sizing: border-box;
     gap: 1.5em;
-    background: linear-gradient(to bottom, #000000, #1708ecb3); /* De fucsia (#ff00ff) a violeta oscuro (#8a2be2) */
-    border-radius: 0 0 50px 50px;
-    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
+    background: #fff;
+    //box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
 
     h2{
-      color: #fff;
+      color: #010165;
       font-weight: 200;
       font-size: 24px;
       margin: 2em;
     }
+
+    /* Estilos responsivos */
+    @media (max-width: 768px) { /* Tablet y móviles grandes */
+        gap: 1em;
+
+        h2 {
+            font-size: 20px;
+            margin: 1.5em;
+        }
+    }
+
+    @media (max-width: 480px) { /* Móviles pequeños */
+        gap: 0.5em;
+        padding: 0.5em;
+
+        h2 {
+            font-size: 18px;
+            margin: 1em;
+        }
+    }
 `
-const Gallery = ({ busqueda }) => {
-  const { videos } = useVideos();
+const Gallery = ({ busqueda, onShowClick }) => {
+  const { image } = useImage();
 
-  // Filtrar videos según la búsqueda si hay una búsqueda
-  const filteredVideos = busqueda
-    ? videos.filter(video => video.titulo.toLowerCase().includes(busqueda.toLowerCase()))
-    : videos;
+  // Filtrar image según la búsqueda si hay una búsqueda
+  const filteredImage = busqueda
+    ? image.filter(video => video.titulo.toLowerCase().includes(busqueda.toLowerCase()))
+    : image;
 
-  // Extraer categorías únicas usando Set
-  const uniqueCategories = [...new Set(filteredVideos.map(video => video.categoria))];
-
+  
   return (
-    <Container>
-      <StyledGallery>
-        {filteredVideos.length === 0 ? (
-          <h2>No se encontraron videos para la búsqueda `{busqueda}`</h2>
+    <Container id="modulos" >
+      <h1 >Tipologías de módulos</h1>
+      <StyledGallery >
+        {filteredImage.length === 0 ? (
+          <h2>No se encontraron imagenes para la búsqueda `{busqueda}`</h2>
         ) : (
-          uniqueCategories.map(categoria => (
-            <CardGallery categoria={categoria} key={uuid()} busqueda={busqueda} />
-          ))
-        )}
+            <CardGallery  key={uuid()} busqueda={busqueda} onShowClick={onShowClick} />
+          )
+        }
+        
       </StyledGallery>
     </Container>
   );

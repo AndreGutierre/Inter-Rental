@@ -1,6 +1,7 @@
 
 import AppRoutes from "./routes";
 import GlobalStyles from './components/GlobalStyles'
+import { EditFormProvider } from "../src/context/EditFormContext";
 
 
 function App() {
@@ -9,9 +10,10 @@ function App() {
   
     <>
       <div>
-       
+     
         <GlobalStyles/>
         <AppRoutes />
+      
       </div>
     </>
    
