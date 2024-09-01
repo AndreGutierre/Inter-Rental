@@ -1,0 +1,106 @@
+[
+    {
+        "id": 1,
+        "titulo": "Bodega",
+        "portada": "src/assets/img/1.1.png",
+        "link": "",
+        "categoria": "Planta libre",
+        "superficie":"24 m2",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "palabrasClaves": "",
+        "imagenes": [
+        { "url": "src/assets/img/image12.jpg" },
+        { "url": "src/assets/img/image14.jpg" },
+        { "url": "src/assets/img/image15.jpg" },
+        { "url": "src/assets/img/image16.jpg" },
+        { "url": "src/assets/img/image17.jpg" }
+      ]
+
+    },
+    {
+        "id": 2,
+        "titulo": "Oficina con baño",
+        "portada": "src/assets/img/2.1.png",
+        "link": "",
+        "categoria": "Oficina",
+        "superficie":"24 m2",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "palabrasClaves": "",
+        "imagenes": [
+        { "url": "src/assets/img/image12.jpg" },
+        { "url": "src/assets/img/image14.jpg" },
+        { "url": "src/assets/img/image15.jpg" },
+        { "url": "src/assets/img/image16.jpg" },
+        { "url": "src/assets/img/image17.jpg" }
+      ]
+    },
+    {
+        "id": 3,
+        "titulo": "Oficina planta libre",
+        "portada": "src/assets/img/3.1.png",
+        "link": "",
+        "categoria": "Oficina",
+        "superficie":"24 m2",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "palabrasClaves": "",
+        "imagenes": [
+        { "url": "src/assets/img/image12.jpg" },
+        { "url": "src/assets/img/image14.jpg" },
+        { "url": "src/assets/img/image15.jpg" },
+        { "url": "src/assets/img/image16.jpg" },
+        { "url": "src/assets/img/image17.jpg" }
+      ]
+    },
+    {
+        "id": 4,
+        "titulo": "Batería 8D",
+        "portada": "src/assets/img/4.1.png",
+        "link": "",
+        "categoria": "Baños",
+        "superficie":"24 m2",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "palabrasClaves": "",
+        "imagenes": [
+        { "url": "src/assets/img/image12.jpg" },
+        { "url": "src/assets/img/image14.jpg" },
+        { "url": "src/assets/img/image15.jpg" },
+        { "url": "src/assets/img/image16.jpg" },
+        { "url": "src/assets/img/image17.jpg" }
+      ]
+    },
+    {
+        "id": 5,
+        "titulo": " Batería 3WC/3LM/3D",
+        "portada": "src/assets/img/5.1.png",
+        "link": "",
+        "categoria": "Baños",
+        "superficie":"24 m2",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "palabrasClaves": "",
+        "imagenes": [
+        { "url": "src/assets/img/image12.jpg" },
+        { "url": "src/assets/img/image14.jpg" },
+        { "url": "src/assets/img/image15.jpg" },
+        { "url": "src/assets/img/image16.jpg" },
+        { "url": "src/assets/img/image17.jpg" }
+      ]
+    },
+    {
+        "id": 6,
+        "titulo": "Batería 6WC/6LM",
+        "portada": "src/assets/img/6.1.png",
+        "link": "",
+        "categoria": "Baños",
+        "superficie":"24 m2",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "palabrasClaves": "",
+        "imagenes": [
+        { "url": "src/assets/img/image12.jpg" },
+        { "url": "src/assets/img/image14.jpg" },
+        { "url": "src/assets/img/image15.jpg" },
+        { "url": "src/assets/img/image16.jpg" },
+        { "url": "src/assets/img/image17.jpg" }
+      ]
+    }
+    
+]
