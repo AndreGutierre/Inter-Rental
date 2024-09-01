@@ -2,104 +2,104 @@
     {
         "id": 1,
         "titulo": "Bodega",
-        "portada": "Inter-Rental/assets/img/1.1.png",
+        "portada": "/Inter-Rental/img/1.1.png",
         "link": "",
         "categoria": "Planta libre",
         "superficie":"24 m2",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "palabrasClaves": "",
         "imagenes": [
-        { "url": "Inter-Rental/assets/img/image12.jpg" },
-        { "url": "Inter-Rental/assets/img/image14.jpg" },
-        { "url": "Inter-Rental/assets/img/image15.jpg" },
-        { "url": "Inter-Rental/assets/img/image16.jpg" },
-        { "url": "Inter-Rental/assets/img/image17.jpg" }
+        { "url": "/Inter-Rental/img/image12.jpg" },
+        { "url": "/Inter-Rental/img/image14.jpg" },
+        { "url": "/Inter-Rental/img/image15.jpg" },
+        { "url": "/Inter-Rental/img/image16.jpg" },
+        { "url": "/Inter-Rental/img/image17.jpg" }
       ]
 
     },
     {
         "id": 2,
         "titulo": "Oficina con baño",
-        "portada": "Inter-Rental/assets/img/2.1.png",
+        "portada": "/Inter-Rental/img/2.1.png",
         "link": "",
         "categoria": "Oficina",
         "superficie":"24 m2",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "palabrasClaves": "",
         "imagenes": [
-        { "url": "Inter-Rental/assets/img/image12.jpg" },
-        { "url": "Inter-Rental/assets/img/image14.jpg" },
-        { "url": "Inter-Rental/assets/img/image15.jpg" },
-        { "url": "Inter-Rental/assets/img/image16.jpg" },
-        { "url": "Inter-Rental/assets/img/image17.jpg" }
+        { "url": "/Inter-Rental/img/image12.jpg" },
+        { "url": "/Inter-Rental/img/image14.jpg" },
+        { "url": "/Inter-Rental/img/image15.jpg" },
+        { "url": "/Inter-Rental/img/image16.jpg" },
+        { "url": "/Inter-Rental/img/image17.jpg" }
       ]
     },
     {
         "id": 3,
         "titulo": "Oficina planta libre",
-        "portada": "Inter-Rental/assets/img/3.1.png",
+        "portada": "/Inter-Rental/img/3.1.png",
         "link": "",
         "categoria": "Oficina",
         "superficie":"24 m2",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "palabrasClaves": "",
         "imagenes": [
-        { "url": "Inter-Rental/assets/img/image12.jpg" },
-        { "url": "Inter-Rental/assets/img/image14.jpg" },
-        { "url": "Inter-Rental/assets/img/image15.jpg" },
-        { "url": "Inter-Rental/assets/img/image16.jpg" },
-        { "url": "Inter-Rental/assets/img/image17.jpg" }
+        { "url": "/Inter-Rental/img/image12.jpg" },
+        { "url": "/Inter-Rental/img/image14.jpg" },
+        { "url": "/Inter-Rental/img/image15.jpg" },
+        { "url": "/Inter-Rental/img/image16.jpg" },
+        { "url": "/Inter-Rental/img/image17.jpg" }
       ]
     },
     {
         "id": 4,
         "titulo": "Batería 8D",
-        "portada": "Inter-Rental/assets/img/4.1.png",
+        "portada": "/Inter-Rental/img/4.1.png",
         "link": "",
         "categoria": "Baños",
         "superficie":"24 m2",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "palabrasClaves": "",
         "imagenes": [
-        { "url": "Inter-Rental/assets/img/image12.jpg" },
-        { "url": "Inter-Rental/assets/img/image14.jpg" },
-        { "url": "Inter-Rental/assets/img/image15.jpg" },
-        { "url": "Inter-Rental/assets/img/image16.jpg" },
-        { "url": "Inter-Rental/assets/img/image17.jpg" }
+        { "url": "/Inter-Rental/img/image12.jpg" },
+        { "url": "/Inter-Rental/img/image14.jpg" },
+        { "url": "/Inter-Rental/img/image15.jpg" },
+        { "url": "/Inter-Rental/img/image16.jpg" },
+        { "url": "/Inter-Rental/img/image17.jpg" }
       ]
     },
     {
         "id": 5,
         "titulo": " Batería 3WC/3LM/3D",
-        "portada": "Inter-Rental/assets/img/5.1.png",
+        "portada": "/Inter-Rental/img/5.1.png",
         "link": "",
         "categoria": "Baños",
         "superficie":"24 m2",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "palabrasClaves": "",
         "imagenes": [
-        { "url": "Inter-Rental/assets/img/image12.jpg" },
-        { "url": "Inter-Rental/assets/img/image14.jpg" },
-        { "url": "Inter-Rental/assets/img/image15.jpg" },
-        { "url": "Inter-Rental/assets/img/image16.jpg" },
-        { "url": "Inter-Rental/assets/img/image17.jpg" }
+        { "url": "/Inter-Rental/img/image12.jpg" },
+        { "url": "/Inter-Rental/img/image14.jpg" },
+        { "url": "/Inter-Rental/img/image15.jpg" },
+        { "url": "/Inter-Rental/img/image16.jpg" },
+        { "url": "/Inter-Rental/img/image17.jpg" }
       ]
     },
     {
         "id": 6,
         "titulo": "Batería 6WC/6LM",
-        "portada": "Inter-Rental/assets/img/6.1.png",
+        "portada": "/Inter-Rental/img/6.1.png",
         "link": "",
         "categoria": "Baños",
         "superficie":"24 m2",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
         "palabrasClaves": "",
         "imagenes": [
-        { "url": "Inter-Rental/assets/img/image12.jpg" },
-        { "url": "Inter-Rental/assets/img/image14.jpg" },
-        { "url": "Inter-Rental/assets/img/image15.jpg" },
-        { "url": "Inter-Rental/assets/img/image16.jpg" },
-        { "url": "Inter-Rental/assets/img/image17.jpg" }
+        { "url": "/Inter-Rental/img/image12.jpg" },
+        { "url": "/Inter-Rental/img/image14.jpg" },
+        { "url": "/Inter-Rental/img/image15.jpg" },
+        { "url": "/Inter-Rental/img/image16.jpg" },
+        { "url": "/Inter-Rental/img/image17.jpg" }
       ]
     }
     
